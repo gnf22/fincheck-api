@@ -8,7 +8,7 @@ import {
   Delete,
 } from '@nestjs/common';
 import { ActiveUserId } from 'src/shared/decorators/ActiveUserId';
-import { CategoriesService } from './categories.service';
+import { CategoriesService } from './services/categories.service';
 import { CreateCategoryDto } from './dto/create-category.dto';
 import { UpdateCategoryDto } from './dto/update-category.dto';
 
